@@ -2070,6 +2070,7 @@ button {
   }
   .nav-bar .icons .cart {
     margin: 0 8px 0 0;
+    padding: 3px 0 0 0;
   }
   .nav-bar .search-container {
     display: none;
