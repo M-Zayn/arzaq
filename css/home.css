@@ -574,6 +574,7 @@ button {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  font-size: 16px;
 }
 
 .nav-bar .icons {
@@ -628,8 +629,8 @@ button {
 
 .nav-bar .icons .cart {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: #054f80;
   color: white;
   border-radius: 50%;
@@ -655,8 +656,8 @@ button {
   position: absolute;
   top: -9px;
   right: -9px;
-  width: 26px;
-  height: 26px;
+  width: 23px;
+  height: 23px;
   border-style: solid;
   border-width: 2px;
   border-color: white;
@@ -2066,7 +2067,7 @@ button {
     margin: 0 15px;
   }
   .nav-bar .icons > div button {
-    font-size: 22px !important;
+    font-size: 17px !important;
   }
   .nav-bar .icons .cart {
     margin: 0 8px 0 0;
@@ -2087,7 +2088,7 @@ button {
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #054f80;
+    background-color: #ffffff42;
     color: #fff;
     border-radius: 50%;
     display: -webkit-box;
