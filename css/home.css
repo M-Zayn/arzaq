@@ -2036,6 +2036,12 @@ button {
   .owl-carousel .owl-item img {
     width: 100%;
   }
+  .nav-bar .search-container .search {
+    width: 750px;
+  }
+  .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder, .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:active, .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+    width: 270px;
+  }
   .container {
     width: 1440px;
   }
@@ -2051,34 +2057,19 @@ button {
   .nav-bar .icons .menu,
   .nav-bar .icons .search {
     display: unset;
+    color: #054f80;
   }
   .nav-bar .icons .user {
     display: none;
   }
   .nav-bar .icons > div {
-    margin: 0 18px;
+    margin: 0 15px;
   }
   .nav-bar .icons > div button {
     font-size: 22px !important;
   }
   .nav-bar .icons .cart {
-    width: unset;
-    height: unset;
-    background-color: unset;
-    color: #000;
-  }
-  .nav-bar .icons .cart .cart-counter {
-    width: 20px;
-    height: 20px;
-    font-size: 11px;
-    color: #fff;
-    top: -11px;
-    right: -11px;
-    padding: 3px 0 0 0;
-  }
-  .nav-bar .icons .cart:hover {
-    background-color: unset;
-    color: unset;
+    margin: 0 8px 0 0;
   }
   .nav-bar .search-container {
     display: none;
@@ -2095,7 +2086,7 @@ button {
     display: block;
     width: 50px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(5, 79, 128, 0.8);
     color: #fff;
     border-radius: 50%;
     display: -webkit-box;
@@ -2112,6 +2103,7 @@ button {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    opacity: 0.8;
   }
   .nav-bar .search-container .search {
     width: 80%;
@@ -2531,7 +2523,14 @@ button {
             flex-direction: column;
   }
   .servs .zx-container .service {
-    padding: 8px 0;
+    padding: 15px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .servs .zx-container .service i {
+    padding: 0 0 5px 0;
   }
   .footer .sp-footer {
     -webkit-box-orient: vertical;
@@ -2654,7 +2653,7 @@ button {
 
 @media (max-width: 480px) {
   .nav-bar .logo {
-    width: 150px;
+    width: 130px;
     margin: 0;
   }
   .nav-bar .search-container .search {
@@ -2684,7 +2683,8 @@ button {
             order: 2;
   }
   .nav-bar .search-container .search .search-btn {
-    top: 74%;
+    top: 73%;
+    left: 25px;
   }
   .nav-bar .search-container .search .bootstrap-select {
     width: 100% !important;
@@ -2693,6 +2693,13 @@ button {
   }
   .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder, .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:active, .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
     border-radius: 50px;
+    padding: 6px 22px;
+  }
+  .nav-bar .search-container .search .bootstrap-select .dropdown-toggle .filter-option {
+    padding: 0;
+  }
+  .nav-bar .search-container .search .bootstrap-select .dropdown-toggle .caret {
+    left: 25px;
   }
   .header .owl-carousel .owl-dots {
     bottom: 10px;
@@ -2825,6 +2832,9 @@ html[dir="ltr"] .footer .footer-list {
     border-radius: 0 50px 50px 0;
     margin: 0 0 0 -4px;
   }
+  html[dir="ltr"] .nav-bar .icons .cart {
+    margin: 0 0 0 8px;
+  }
   html[dir="ltr"] .footer .footer-img {
     padding: 0;
   }
@@ -2887,6 +2897,14 @@ html[dir="ltr"] .footer .footer-list {
   }
   html[dir="ltr"] .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder, html[dir="ltr"] .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:active, html[dir="ltr"] .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, html[dir="ltr"] .nav-bar .search-container .search .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
     border-radius: 50px;
+  }
+  html[dir="ltr"] .nav-bar .search-container .search .bootstrap-select .dropdown-toggle .caret {
+    left: unset;
+    right: 25px;
+  }
+  html[dir="ltr"] .nav-bar .search-container .search .search-btn {
+    left: unset;
+    right: 20px;
   }
   html[dir="ltr"] .footer .footer-list {
     padding: 0;
