@@ -2090,6 +2090,7 @@ button {
     height: 50px;
     background-color: #ffffff42;
     color: #fff;
+    font-size: 17px;
     border-radius: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2191,7 +2192,7 @@ button {
   .fixed-menu .menu-header .close {
     opacity: 1;
     color: #444;
-    font-size: 16px;
+    font-size: 17px;
     position: absolute;
     top: 20px;
     left: 15px;
@@ -2913,3 +2914,4 @@ html[dir="ltr"] .footer .footer-list {
   }
 }
 
+/*# sourceMappingURL=home.css.map */
