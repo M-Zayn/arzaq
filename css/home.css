@@ -2103,7 +2103,7 @@ button {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    opacity: 0.8;
+    opacity: 1;
   }
   .nav-bar .search-container .search {
     width: 80%;
