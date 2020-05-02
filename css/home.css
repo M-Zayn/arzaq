@@ -2693,9 +2693,6 @@ button {
   .header .owl-carousel .owl-dots {
     bottom: 10px;
   }
-  .card {
-    width: 260px;
-  }
   .footer .footer-list {
     margin: 0 !important;
     padding: 0 10px;
@@ -2887,4 +2884,3 @@ html[dir="ltr"] .footer .footer-list {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
